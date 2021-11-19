@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Prosto+One&display=swap" rel="stylesheet">
+    <script  defer src="script/script.js"></script>
+</head>
+<body>
+    <div class="to-do">
+
+        <h2 class="to-do__title">Список дел</h2>
+        <div class="to-do__form">
+            <form action="">
+                <div class="to-do__form-content">
+                    <input type="text" placeholder="Новая задача" class="to-do__input">
+                    <button class="to-do__btn">Добавить</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="to-do__list">
+        </div>
+
+        <div class="to-do__eror to-do__eror--none"></div>
+        <div class="to-do__eror-window to-do__eror-window--none">Необходимо ввести текст задачи!</div>
+
+        
+        <div class="to-do__edit-window to-do__edit-window--none"></div>
+        <div class="to-do__edit-form to-do__edit-form--none">
+            <form action="" class="to-do__form-edit">
+                <input type="text" class="to-do__edit-input" placeholder="Новое значение">
+                <button class="to-do__cancell-btn" type="reset">Отмена</button>
+                <button class="to-do__edit-btn" type="submit">Изменить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
